@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-// Lista de tareas
+
 export const List = styled.ol`
   list-style-type: none;
   padding: 0;
@@ -9,7 +9,7 @@ export const List = styled.ol`
   margin-top: 20px;
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    max-width: 450px; /* Aumentar ancho */
+    max-width: 450px; 
   }
 `;
 
@@ -25,11 +25,11 @@ export const Tarea = styled.li`
   max-width: 400px;
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    padding: 15px; /* Más espacio en tablets */
+    padding: 15px; 
   }
 `;
 
-// Span con el nombre de la tarea
+
 export const Span = styled.span`
   font-size: 16px;
   color: #333;
@@ -39,6 +39,6 @@ export const Span = styled.span`
   white-space: nowrap;
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    font-size: 24px; /* Texto más grande en tablets */
+    font-size: 24px;
   }
 `;

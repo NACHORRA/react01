@@ -6,7 +6,7 @@ export const Contenedor = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh; /* Altura predeterminada */
+  height: 70vh; 
   background-color: #f4f4f4;
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -15,7 +15,7 @@ export const Contenedor = styled.div`
   max-width: 500px;
   margin: 50px auto;
 
-  /* Líneas decorativas */
+ 
   &:before {
     content: "";
     display: block;
@@ -35,33 +35,33 @@ export const Contenedor = styled.div`
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    height: 40vh; /* Reducir altura en tablets */
-    padding: 30px; /* Aumentar el padding */
-    margin: 80px auto; /* Centrando en tablets */
-    max-width: 450px; /* Reducir el ancho */
+    height: 40vh; 
+    padding: 30px; 
+    margin: 80px auto; 
+    max-width: 450px; 
   }
 `;
 
 
 
-// Título principal
+
 export const Title = styled.h1`
   font-size: 42px;
   color: #333;
   margin-bottom: 20px;
 `;
 
-// Header (contenedor del input y el botón Add)
+
 export const Header = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 400px; /* Ancho uniforme */
-  gap: 10px; /* Espaciado entre el input y el botón */
+  max-width: 400px; 
+  gap: 10px; 
 `;
 
-// Input de tarea
+
 export const Input = styled.input`
   width: 100%;
   padding: 12px 20px;
@@ -70,7 +70,7 @@ export const Input = styled.input`
   border-radius: 5px;
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    padding: 15px 25px; /* Más grande */
+    padding: 15px 25px; 
     font-size: 24px;
   }
 `;

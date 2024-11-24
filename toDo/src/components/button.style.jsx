@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-// Botón Añadir (Add)
+
 export const Add = styled.button`
-  background-color: #00bcd4; /* Celeste */
+  background-color: #00bcd4; 
   color: white;
   border: none;
-  padding: 12px 20px; /* Tamaño inicial */
+  padding: 12px 20px; 
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
@@ -13,19 +13,19 @@ export const Add = styled.button`
   max-width: 400px;
 
   &:hover {
-    background-color: #0097a7; /* Color más oscuro al pasar el ratón */
+    background-color: #0097a7; 
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    padding: 15px 25px; /* Aumentar tamaño de botones */
-    font-size: 24px; /* Texto más grande */
+    padding: 15px 25px; 
+    font-size: 24px; 
   }
 `;
 
 
-// Botón Borrar (Delete)
+
 export const Delete = styled.button`
-  background-color: #f44336; /* Rojo */
+  background-color: #f44336;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -35,14 +35,14 @@ export const Delete = styled.button`
   width: auto;
 
   &:hover {
-    background-color: #e53935; /* Rojo oscuro al pasar el ratón */
+    background-color: #e53935; 
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     font-size: 20px;}
 `;
 
 export const Deleteall = styled.button`
-  background-color: #f44336; /* Rojo */
+  background-color: #f44336; 
   color: white;
   border: none;
   padding: 12px 20px;
@@ -53,11 +53,11 @@ export const Deleteall = styled.button`
   max-width: 400px;
 
   &:hover {
-    background-color: #e53935; /* Rojo más oscuro */
+    background-color: #e53935; 
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    padding: 15px 25px; /* Botón más grande */
+    padding: 15px 25px;
     font-size: 24px;
   }
 `;
